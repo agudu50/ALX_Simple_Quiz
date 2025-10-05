@@ -18,7 +18,7 @@ function checkAnswer() {
       const userAnswer = selectedOption.value;
 
     if (userAnswer === correctAnswer) {
-       feedback.textContent = "Correct!";
+       feedback.textContent = "Correct! Well done.";
          feedback.style.color = "green";
     } else {
         feedback.textContent = "That's incorrect. Try again!";
